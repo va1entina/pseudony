@@ -1,10 +1,10 @@
 ## Acceptance criteria
 
 - [x] Write a script that generates the two files as explained above from patients.csv (you can use any programming language & you may use any open source libraries you like)
+- [x] Write at least 2 unit tests for relevant parts of your code, and include instructions for how to run the unit tests as well
+- [x] Push your completed code to this GitHub repo and let us know you're done - we will set up a chat with you to discuss your code
 #### Not finished
-- [ ] Include instructions for running the script for somebody who knows nothing about the code
-- [ ] Write at least 2 unit tests for relevant parts of your code, and include instructions for how to run the unit tests as well
-- [ ] Push your completed code to this GitHub repo and let us know you're done - we will set up a chat with you to discuss your code
+- [x] Include instructions for running the script for somebody who knows nothing about the code
 
 
 ## Description
@@ -17,5 +17,8 @@ Pseudonymisator of the health data by splitting the CSV files with an expected s
 ## Running the application
 
 ```
+npm install
 npm run devStart
+
+The app will be run on http://localhost:3000
 ```
